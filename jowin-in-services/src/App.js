@@ -1,23 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Header from "./components/Header/Header";
+import IntroSection from "./components/IntroSection/IntroSection";
+import ServicesSection from "./components/ServicesSection/ServicesSection";
+import TrustedPartner from "./components/TrustedPartnerSection/TrustedPartner";
+import CoreServices from "./components/CoreServices/CoreServices";
+import Contact from "./components/Content/Contact.js";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header />
+      <IntroSection />
+      <ServicesSection />
+      <TrustedPartner />
+      <CoreServices />
+      <Contact />
+      <footer>
+        <p>Copyright Velocity Inc.Made in Webflow. </p>
+      </footer>
     </div>
   );
 }
