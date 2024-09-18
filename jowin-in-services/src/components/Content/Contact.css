@@ -1,0 +1,48 @@
+.contact {
+  padding: 40px;
+  background-color: #f4f4f4;
+
+}
+.contact h1{
+  font-style: italic;
+}
+.contact h3 {
+  text-align: left;
+  margin-bottom: 5px;
+  color: #626262;
+}
+.contact form input,
+.contact form button,
+.contact form select {
+  width: calc(350% - 40px); 
+  padding: 10px 20px; 
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  display: block; 
+  
+}
+.name-fields {
+  display: flex;
+  justify-content: space-between;
+}
+
+.name-fields input {
+  width: calc(48% - 200px); 
+  padding: 10px 20px;
+  
+}
+.contact form select {
+  appearance: none;
+  background-color: #fff;
+  cursor: pointer;
+}
+.contact form button {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.contact form button:hover {
+  background-color: #2980b9;
+}

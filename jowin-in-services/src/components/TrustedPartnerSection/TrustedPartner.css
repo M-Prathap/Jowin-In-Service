@@ -1,0 +1,29 @@
+.trusted-partner {
+  background-color: #1703f4;
+  color: white;
+  padding: 40px;
+  text-align: center;
+  height: 350px;
+}
+.trusted-partner h1{
+  color: white;
+  padding-bottom: 30px;
+}
+.trusted-partner-container{
+  width: 50%;
+  float: right;
+  text-align: left;
+  padding-right: 15%;
+}
+.trusted-partner-container p{
+  color: #ffff;
+}
+.trusted-partner a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #1b94e4;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 10px;
+}

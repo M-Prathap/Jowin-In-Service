@@ -1,0 +1,20 @@
+.core-services {
+  padding: 40px;
+  background-color: #f9f9f9;
+}
+.core-services h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.core-services-items{
+  display: flex;
+}
+.service {
+  border: 1px solid black;
+  padding: 15px;
+  margin: 15px;
+}
+.service h3 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}

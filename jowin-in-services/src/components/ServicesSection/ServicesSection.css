@@ -1,0 +1,46 @@
+.services {
+  padding: 20px;
+  text-align: center;
+  margin-left: 15%;
+  margin-right: 15%;
+  height: 560px;
+}
+
+.services h2 {
+  font-size: 2em;
+  padding-bottom: 50px;
+}
+
+.services-container {
+  width: 50%;
+  float: right;
+  text-align: left;
+  color: #626262;
+  font-weight: 400;
+}
+
+.services-container ol{
+  text-align: left;
+ 
+}
+.list{
+  padding-left: 50px;
+  padding-top: 20px;
+}
+
+.services-img {
+  width: 35%;
+  padding-top: 50px;
+}
+.explore-button{
+  padding-left: 30px;
+}
+
+.explore-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #3498db;
+  color: white;
+  text-decoration: none;
+  margin-top: 10px;
+  }
